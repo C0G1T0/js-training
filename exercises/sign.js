@@ -16,7 +16,7 @@ const sign = (number) => {
 
 	if (number===0) {
 		return 0
-	} 
+	}
 	else if (number>0) {
 		return 1
 	}
@@ -26,7 +26,6 @@ const sign = (number) => {
 
 }
 
-console.log(sign(3))
 //* Begin of tests
 const assert = require('assert')
 

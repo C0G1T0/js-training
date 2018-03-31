@@ -26,7 +26,6 @@ const get = key => {
 
 }
 
-console.log(get('num'))
 //* Begin of tests
 const assert = require('assert')
 
