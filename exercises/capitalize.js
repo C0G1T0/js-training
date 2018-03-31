@@ -1,5 +1,10 @@
 'use strict'
 
+
+const capitalize = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
 /*
  * Create a function `capitalize` takes a string
  * and transform to upper case only the first letter

@@ -1,5 +1,8 @@
 'use strict'
 
+const circular = {}
+circular.circular = circular
+
 /*
  * Create an object `circular` that has a property named `circular` with
  * itself as the value

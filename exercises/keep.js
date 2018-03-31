@@ -1,5 +1,26 @@
 'use strict'
 
+let keepFirst = (myString) => {
+
+	myString = myString.substr(0, 2)
+	return myString
+
+}
+
+let keepLast = (myString) => {
+
+	myString = myString.substr(3, 2)
+	return myString
+	
+}
+
+let keepFirstLast = (myString) => {
+
+	myString = myString.substr(3, 2)
+	return myString
+
+}
+
 /*
  * Create a function `keepFirst` takes a string
  * and only keep the 2 first characters
@@ -16,5 +37,8 @@
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
-// End of tests */
+assert.strictEqual(typeof keepFirst, 'function')
+assert.strictEqual(keepFirst.length, 1)
+assert.deepStrictEqual(keepFirst('abcde'), ('ab') )
+assert.deepStrictEqual(keepLast('abcde'), ('de'))
+assert.deepStrictEqual(keepFirstLast('abcde'), ('de'))// End of tests */

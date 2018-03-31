@@ -7,6 +7,21 @@
  */
 
 
+const total = (element) => {
+	let top = 0
+	for (let i=0; i < element.length; i++) {
+	top = top + element[i]
+	}
+
+	return top
+
+}
+
+
+
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

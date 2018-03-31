@@ -1,5 +1,8 @@
 'use strict'
 
+const escapeStr = `Hello \`dumbass\`\/\"\'\\`
+
+console.log(escapeStr)
 /*
  * Create a constant variables named `escapeStr` that contains specials
  * characters: /\`"'

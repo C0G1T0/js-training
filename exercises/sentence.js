@@ -1,5 +1,18 @@
 'use strict'
 
+
+const sentence = (tableau) => {
+
+	let myString = tableau.join(' ')
+	return myString
+
+}
+
+
+
+
+
+
 /*
  * Create a function `sentence` that takes an array of strings
  * and return a strings of all the element separated by spaces

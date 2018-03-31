@@ -11,6 +11,10 @@
 
 // Your code :
 
+const multiply = (n,b) => times5R(n, b, 0, 0)
+
+const times5R = (n, b, count, result) => (count < Math.abs(b)) ? times5R(n, b, count + 1, result + n) : b < 0 ? -(result) : (result) 
+
 //* Begin of tests
 const assert = require('assert')
 

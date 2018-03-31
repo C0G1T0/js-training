@@ -10,6 +10,133 @@
 
 // Your code :
 
+const multiply = (a,b) => {
+
+  	let total = 0
+
+  	if (a<0 && b>0) {
+
+  		a = -a
+  		for (let i = 0; i<a; i++){
+
+  			total = total + b
+
+  		}
+
+  		return -total
+
+  	} else if (a>0 && b<0) {
+
+  		for (let i = 0; i<a; i++){
+
+  			total = total + b
+
+  		}
+
+  		return total
+
+  	} else if (a<0 && b<0) {
+
+  		a = -a
+  		b = -b
+  		for (let i = 0; i<a; i++){
+
+  			total = total + b
+
+  		}
+
+  		return total
+
+  	} else if (a>0 && b>0) {
+
+  		for (let i = 0; i<a; i++){
+
+  			total = total + b
+
+  		}
+
+  		return total
+
+  	} else {
+
+  		for (let i = 0; i<a; i++){
+
+  			total = total + b
+
+  		}
+
+  		return total
+  		
+  	}
+
+
+}
+
+ //  	if (a<0 && b>0) {
+
+	// 		for (let i = 0; i<a; i++) {
+
+ //  				total = total + b
+ // 			}
+
+ // 			return total
+
+ //  	} else if (a && b >= 0 ) {
+
+ //  			for (let i = 0; i<a; i++) {
+
+ //  			total = total + b
+
+ //  			}
+
+ //  			return total
+
+ //  	} else if (a<0 && b<0) {
+
+ // 			a = -a
+ // 			b = -b
+ //  			for (let i = 0; i<a; i++) {
+
+ //  			total = total + b
+ 		
+ // 			}
+
+ // 			return total
+
+ //  	} else if (a>0 && b<0) {
+
+ //  			for (let i = 0; i<a; i++) {
+
+ //  			total = total + b
+ 		
+ // 			}
+
+ // 			return total
+
+	// } else if (a<0 && b>0) {
+
+	// 		for (let i = 0; i<a; i++) {
+
+ //  			total = total + b
+ 			
+ // 			}
+
+ // 			return total
+
+ //  	} else {
+
+ //  			for (let i = 0; i<a; i++) {
+
+ //  			total = total + b
+
+ //  			}
+
+ //  			return total
+
+ //  	}
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

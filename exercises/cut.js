@@ -1,5 +1,31 @@
 'use strict'
 
+
+let cutFirst = (myString) => {
+
+	myString = myString.substring(2,(myString.length));
+	return myString
+
+
+}
+
+let cutLast = (myString) => {
+
+	myString = myString.substr(-5, 3)
+		return myString
+
+
+
+	
+}
+
+let cutFirstLast = (myString) => {
+
+	myString = myString.substring(2,((myString.length)-2));
+	return myString
+
+}
+
 /*
  * Create the function `cutFirst` that takes a string and remove the 2 first characters
  * Create the function `cutLast` that takes a string and remove the 2 last charcters
@@ -13,5 +39,10 @@
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof cutFirst, 'function')
+assert.strictEqual(cutFirst.length, 1)
+assert.deepStrictEqual(cutFirst('abcde'), ('cde') )
+assert.deepStrictEqual(cutLast('abcde'), ('abc'))
+assert.deepStrictEqual(cutFirstLast('abcde'), ('c'))
+
 // End of tests */

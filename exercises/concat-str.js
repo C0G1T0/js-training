@@ -1,5 +1,11 @@
 'use strict'
 
+const concatStr = (a,b) => {
+
+	return (`${a}${b}`)
+
+}
+
 /*
  * Create a function `concatStr` that takes 2 arguments and concatenate them
  *

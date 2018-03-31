@@ -1,5 +1,10 @@
 'use strict'
 
+const getFirst = arr => {
+
+	return (arr[0])
+	
+}
 /*
  * Create a `getFirst` function that takes an array or a string
  * and return the first element

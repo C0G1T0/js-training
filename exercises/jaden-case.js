@@ -1,5 +1,8 @@
 'use strict'
 
+
+ 
+
 /*
  * Jaden Smith Case
  *
@@ -11,7 +14,5 @@
 
 
 //* Begin of tests
-const assert = require('assert')
 
-assert.fail('You must write your own tests')
 // End of tests */

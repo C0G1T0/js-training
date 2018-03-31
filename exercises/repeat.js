@@ -1,5 +1,32 @@
 'use strict'
 
+
+const repeat = (a,b) => {
+
+	let string = ''
+
+	for (let i = 0; i < b; i++) {
+		
+		string = string += a
+
+	}
+
+	return string
+
+}
+
+
+
+// 	let string = ''
+// 	let a = 'a'
+
+// for (let i = 0; i<3; i++) {
+
+// 	string = string += a
+// }
+
+// console.log(string)
+
 /*
  * Create a function `repeat` that takes a String and a Number
  * and return the repeated string by the given number

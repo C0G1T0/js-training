@@ -1,5 +1,12 @@
 'use strict'
 
+const obj = {
+	str: "1337",
+	num: 42,
+	bool: false,
+	undef: undefined,
+
+}
 /*
  * Create an object `obj` that has a property for each primitive values
  * much like in primitive.js

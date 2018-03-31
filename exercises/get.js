@@ -1,5 +1,7 @@
 'use strict'
 
+
+
 /*
  * Create a get function that takes a key and return the corresponding value
  * in the sourceObject
@@ -15,8 +17,16 @@ const sourceObject = {
   log: console.log,
 }
 
+
 // Your code :
 
+const get = key => {
+
+	return sourceObject[key]
+
+}
+
+console.log(get('num'))
 //* Begin of tests
 const assert = require('assert')
 
@@ -27,3 +37,4 @@ assert.strictEqual(get('str'), 'some text')
 assert.strictEqual(get('log'), console.log)
 assert.strictEqual(get('noexist'), undefined)
 // End of tests */
+

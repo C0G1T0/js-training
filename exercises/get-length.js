@@ -1,5 +1,9 @@
 'use strict'
 
+const getLength = list => {
+
+	return (list.length)
+}
 /*
  * Create a getLength function that takes an array or a string
  * and return it's length.

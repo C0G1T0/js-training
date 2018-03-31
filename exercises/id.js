@@ -1,5 +1,9 @@
 'use strict'
 
+const id = (argument) => {
+	return (argument)
+}
+
 /*
  * Create a function `id` that takes one argument and return it
  *
