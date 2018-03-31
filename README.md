@@ -1,3 +1,6 @@
+[![Travis master](https://img.shields.io/travis/C0G1T0/js-training.svg)](https://travis-ci.org/C0G1T0/js-training)
+[![Travis dev](https://img.shields.io/travis/C0G1T0/js-training/dev.svg)](https://travis-ci.org/C0G1T0/js-training/branches)
+
 [![Build Status](https://travis-ci.org/nan-academy/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
 ## Setup
 First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
